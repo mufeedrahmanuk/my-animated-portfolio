@@ -34,7 +34,7 @@ const Hero = () => {
           />
         </h1>
         <p data-aos="fade-up" className='text-[#ADB7BE] md:mt-4 mt-4 text-base sm:text-lg lg:text-xl'>
-          Hey, I'm Mufeed, a passionate web developer dedicated{' '} 
+          Hey, I&rsquo;m Mufeed, a passionate web developer dedicated{' '} 
           to crafting responsive and dynamic websites that captivate and engage users.
         </p>
 

@@ -1,6 +1,5 @@
 'use client'
 
-
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -12,25 +11,26 @@ import Work from './Components/Work';
 import Education from './Components/Education';
 import StickyButton from './Components/StickyButton';
 
-const page = () => {
+const Page = () => {
   useEffect(()=>{
     AOS.init({
       duration: 800,
-          once: false,
+      once: false,
     });
     AOS.refresh();
   }, [])
+  
   return (
     <div>
       <Hero />
       <About />
       <Skills />
       <Education />
-      <Work/>
+      <Work />
       <Contact />
       <StickyButton />
     </div>
   )
 }
 
-export default page
+export default Page;

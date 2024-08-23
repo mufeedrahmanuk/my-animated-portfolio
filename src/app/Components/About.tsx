@@ -25,10 +25,10 @@ const About = () => {
           As a passionate Frontend Developer from Kerala, India, I specialize in transforming ideas into clean, efficient code using HTML, CSS, JavaScript, TypeScript, and frameworks like React, Next.js, and Angular.
         </p>
         <p data-aos="fade-up" className='text-base lg:text-lg mt-4'>
-          My journey in web development has taken me through exciting projects in the Sports and BFSI domains, where I’ve driven user engagement and business growth through innovative solutions, such as enhancing the AFL platform and revolutionizing online banking for PayUK.
+          My journey in web development has taken me through exciting projects in the Sports and BFSI domains, where I&rsquo;ve driven user engagement and business growth through innovative solutions, such as enhancing the AFL platform and revolutionizing online banking for PayUK.
         </p>
         <p data-aos="fade-up" className='text-base lg:text-lg mt-4'>
-          I hold a B.E. in Computer Science and Engineering from Anna University, where my curiosity for technology was matched by a love for exploration. Whether it's traveling, discovering new music, or culinary adventures, these experiences fuel my creativity and problem-solving skills.
+          I hold a B.E. in Computer Science and Engineering from Anna University, where my curiosity for technology was matched by a love for exploration. Whether it&rsquo;s traveling, discovering new music, or culinary adventures, these experiences fuel my creativity and problem-solving skills.
         </p>
         <a 
           data-aos="fade-up" 
