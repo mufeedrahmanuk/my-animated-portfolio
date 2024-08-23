@@ -8,7 +8,7 @@ const data = [
     link: 'https://virtualreality-vr.vercel.app/',
   },
   {
-    image: '/sportweb.JPG',
+    image: '/sportweb.jpg',
     link: 'https://sportswebsite-opal.vercel.app/',
   },
   {
