@@ -12,29 +12,30 @@ const data = [
     link: 'https://sportswebsite-opal.vercel.app/',
   },
   {
-    image: '/panaverse.PNG',
-    link: 'https://panaverse-daoclone--lime.vercel.app/',
+    image: '/ecommerce.jpg',
+    link: 'https://e-commerce-website-three-sigma.vercel.app/',
   },
   {
-    image: '/todo.PNG',
-    link: 'https://todolist-nextjs-livid.vercel.app/',
+    image: '/todo.jpg',
+    link: 'https://todo-list-nu-black-15.vercel.app/',
   },
-  {
-    image: '/ecommerce.PNG',
-    link: 'https://e-commerce-shop-wine.vercel.app/',
-  },
-  {
-    image: '/cloudinary.PNG',
-    link: 'https://photo-album-drab.vercel.app/',
-  },
-  {
-    image: '/website2.JPG',
-    link: 'https://seaside-escape-gateways.vercel.app/',
-  },
-  {
-    image: '/webdev.JPG',
-    link: 'https://agencywebsite-xi.vercel.app/',
-  },
+  // {
+  //   image: '/panaverse.PNG',
+  //   link: 'https://panaverse-daoclone--lime.vercel.app/',
+  // },
+  
+  // {
+  //   image: '/cloudinary.PNG',
+  //   link: 'https://photo-album-drab.vercel.app/',
+  // },
+  // {
+  //   image: '/website2.JPG',
+  //   link: 'https://seaside-escape-gateways.vercel.app/',
+  // },
+  // {
+  //   image: '/webdev.JPG',
+  //   link: 'https://agencywebsite-xi.vercel.app/',
+  // },
 ];
 
 const Work = () => {
