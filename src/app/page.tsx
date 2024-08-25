@@ -12,13 +12,16 @@ import Education from './Components/Education';
 import StickyButton from './Components/StickyButton';
 
 const Page = () => {
-  useEffect(()=>{
+  useEffect(() => {
     AOS.init({
       duration: 800,
       once: false,
     });
     AOS.refresh();
-  }, [])
+
+    // Scroll to top on page load
+    window.scrollTo(0, 0);
+  }, []);
   
   return (
     <div>

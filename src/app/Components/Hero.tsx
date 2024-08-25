@@ -11,8 +11,8 @@ const Hero = () => {
   return (
     <div data-aos="fade-up" className='grid grid-cols-1 sm:grid-cols-12 h-screen bg-[#121212]'>
       <div className='col-span-7 px-12 md:px-14 text-center sm:text-left'>
-        <h1 className='text-lg md:text-xl mt-6 md:mt-12 sm:text-2xl md:text-3xl text-gray-400 tracking-wider'>
-          👋🏻Hello, I am
+        <h1 className='text-xl md:text-2xl lg:text-3xl mt-6 md:mt-12 sm:text-2xl text-gray-400 tracking-wider'>
+          <span className='inline-block animate-wave'>👋🏻</span>Hello, I am
         </h1>
         <h1 className='text-4xl sm:text-5xl md:text-6xl lg:text-7xl bg-gradient-to-r from-blue-700 via-purple-700 to-indigo-900 text-transparent bg-clip-text font-serif font-bold md:mt-7 lg:mt-8 mt-4'>
           Mufeed Rahman
@@ -54,7 +54,7 @@ const Hero = () => {
           <Image 
             src={'/Hero-Img.png'}
             alt='Mufeed Rahman smiling, representing his profile image'
-            className='absolute transform scale-125 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
+            className='absolute animate-heroImage transform scale-125 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
             width={300}
             height={300} 
           />

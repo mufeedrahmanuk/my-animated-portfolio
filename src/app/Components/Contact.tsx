@@ -1,5 +1,4 @@
 import { MdEmail } from "react-icons/md";
-import { FaGreaterThan } from "react-icons/fa6";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoMdCall } from "react-icons/io";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
@@ -12,36 +11,31 @@ const Contact = () => {
   return (
     <div
       data-aos="fade-up"
-      className="bg-[#121212] py-8 px-4 sm:py-16 xl:px-16"
+      className="bg-[#121212] py-12 px-4 sm:py-16 sm:px-6 xl:px-20"
     >
-      <div>
+      <div className="max-w-4xl mx-auto text-center">
         <h1
           data-aos="fade-up"
-          className="text-center text-5xl lg:text-6xl text-white font-bold"
+          className="text-4xl sm:text-5xl lg:text-6xl text-white font-bold mb-8 sm:mb-12"
         >
-          Contact
+          Contact Me
         </h1>
-        <ul data-aos="fade-up" className="space-y-8 md:px-4 py-16 lg:py-16">
-        <li className="flex items-center space-x-4 lg:space-x-6">
-            <FaLocationDot className="text-indigo-600 text-3xl lg:text-5xl" />
-            <FaGreaterThan className="text-indigo-600 text-2xl lg:text-4xl" />
-            <h1 className="text-white text-[16px] sm:text-[19px] md:text-[21px] lg:text-[22px]">
+        <ul className="space-y-8 sm:space-y-10 mb-8 sm:mb-12">
+          <li data-aos="fade-up-right" className="contact-item">
+            <FaLocationDot className="contact-icon text-3xl sm:text-4xl lg:text-5xl" />
+            <h1 className="contact-text text-lg sm:text-xl md:text-2xl lg:text-3xl">
               Dubai, United Arab Emirates
             </h1>
           </li>
-          
-          <li className="flex items-center space-x-4 lg:space-x-6">
-            <MdEmail className="text-indigo-600 text-3xl lg:text-5xl" />
-            <FaGreaterThan className="text-indigo-600 text-2xl lg:text-4xl" />
-            <h1 className="text-white text-[16px] sm:text-[19px] md:text-[21px] lg:text-[22px]">
+          <li data-aos="fade-up-right" className="contact-item">
+            <MdEmail className="contact-icon text-3xl sm:text-4xl lg:text-5xl" />
+            <h1 className="contact-text text-lg sm:text-xl md:text-2xl lg:text-3xl">
               mufeedrahmanuk@gmail.com
             </h1>
           </li>
-
-          <li className="flex items-center space-x-4 lg:space-x-6">
-            <IoMdCall className="text-indigo-600 text-3xl lg:text-5xl" />
-            <FaGreaterThan className="text-indigo-600 text-2xl lg:text-4xl" />
-            <h1 className="text-white text-[16px] sm:text-[19px] md:text-[21px] lg:text-[22px]">
+          <li data-aos="fade-up-right" className="contact-item">
+            <IoMdCall className="contact-icon text-3xl sm:text-4xl lg:text-5xl" />
+            <h1 className="contact-text text-lg sm:text-xl md:text-2xl lg:text-3xl">
               +971 55 991 7501
             </h1>
           </li>
@@ -49,39 +43,35 @@ const Contact = () => {
 
         <div
           data-aos="fade-up"
-          className="border-t border-neutral-700 py-2"
+          className="border-t border-neutral-700 py-4 mb-6 sm:mb-8"
         ></div>
 
         <div
           data-aos="fade-up"
-          className="flex justify-center items-center space-x-6"
+          className="flex flex-wrap justify-center items-center gap-6 sm:gap-8"
         >
           <Link href={"https://www.linkedin.com/in/mufeedrahmanuk"}>
             <TiSocialLinkedinCircular
-              data-aos="fade-up"
-              size={53}
-              className="text-neutral-600 hover:text-purple-500 transition-all duration-200 cursor-pointer"
+              size={50}
+              className="text-neutral-600 hover:text-purple-500 transition-all duration-300 cursor-pointer transform hover:scale-110"
             />
           </Link>
           <Link href={"https://github.com/mufeedrahmanuk"}>
             <VscGithub
-              data-aos="fade-up"
               size={40}
-              className="text-neutral-600 hover:text-purple-500 transition-all duration-200 cursor-pointer"
+              className="text-neutral-600 hover:text-purple-500 transition-all duration-300 cursor-pointer transform hover:scale-110"
             />
           </Link>
           <Link href={"https://www.instagram.com/mufeedrahmanuk/"}>
             <TiSocialInstagramCircular
-              data-aos="fade-up"
-              size={40}
-              className="text-neutral-600 hover:text-purple-500 transition-all duration-200 cursor-pointer"
+              size={50}
+              className="text-neutral-600 hover:text-purple-500 transition-all duration-300 cursor-pointer transform hover:scale-110"
             />
           </Link>
           <Link href={"https://www.facebook.com/mufeedrahmanuk"}>
             <TiSocialFacebookCircular
-              data-aos="fade-up"
-              size={53}
-              className="text-neutral-600 hover:text-purple-500 transition-all duration-200 cursor-pointer"
+              size={50}
+              className="text-neutral-600 hover:text-purple-500 transition-all duration-300 cursor-pointer transform hover:scale-110"
             />
           </Link>
         </div>
