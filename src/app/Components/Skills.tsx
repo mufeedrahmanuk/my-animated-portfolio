@@ -14,7 +14,6 @@ const Skills = () => {
 
       <div className='grid md:grid-cols-2 gap-8 items-start'>
         
-        {/* Experience Section */}
         <div>
           <div className="mb-8">
             <p data-aos="fade-up" className='font-bold'>Sep 2023 - May 2024</p>
@@ -46,7 +45,6 @@ const Skills = () => {
           </div>
         </div>
 
-        {/* Skills Section */}
         <div className='grid grid-cols-3 gap-4'>
           {[
             { skill: "HTML", icon: <FaHtml5 className='text-orange-800 text-4xl' /> },

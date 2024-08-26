@@ -5,7 +5,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { IoMdCall } from "react-icons/io";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { VscGithub } from "react-icons/vsc";
-import { TiSocialFacebookCircular } from "react-icons/ti";
+import { FaWhatsapp } from "react-icons/fa";
 import { TiSocialInstagramCircular } from "react-icons/ti";
 import Link from "next/link";
 import { useEffect } from 'react';
@@ -15,9 +15,9 @@ import 'aos/dist/aos.css';
 const Contact = () => {
   useEffect(() => {
     AOS.init({
-      duration: 700, // Match the animation duration with the Work section
-      delay: 50, // Match the delay with the Work section
-      once: true, // Trigger animations only once
+      duration: 700,
+      delay: 50,
+      once: true,
     });
   }, []);
 
@@ -72,20 +72,20 @@ const Contact = () => {
               className="text-neutral-600 hover:text-purple-500 transition-all duration-300 cursor-pointer transform hover:scale-110"
             />
           </Link>
+          <Link href={"https://wa.me/971559917501"}>
+            <FaWhatsapp
+              size={50}
+              className="text-neutral-600 hover:text-green-500 transition-all duration-300 cursor-pointer transform hover:scale-110"
+            />
+          </Link>
           <Link href={"https://github.com/mufeedrahmanuk"}>
             <VscGithub
-              size={40}
+              size={50}
               className="text-neutral-600 hover:text-purple-500 transition-all duration-300 cursor-pointer transform hover:scale-110"
             />
           </Link>
           <Link href={"https://www.instagram.com/mufeedrahmanuk/"}>
             <TiSocialInstagramCircular
-              size={50}
-              className="text-neutral-600 hover:text-purple-500 transition-all duration-300 cursor-pointer transform hover:scale-110"
-            />
-          </Link>
-          <Link href={"https://www.facebook.com/mufeedrahmanuk"}>
-            <TiSocialFacebookCircular
               size={50}
               className="text-neutral-600 hover:text-purple-500 transition-all duration-300 cursor-pointer transform hover:scale-110"
             />

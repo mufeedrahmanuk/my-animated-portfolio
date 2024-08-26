@@ -10,7 +10,6 @@ const Education = () => {
       </div>
 
       <div className='grid gap-8 sm:grid-cols-1 lg:grid-cols-3'>
-        {/* Education Items */}
         {[
           {
             degree: "Bachelor of Engineering (B.E.)",

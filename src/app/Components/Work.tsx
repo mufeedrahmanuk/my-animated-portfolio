@@ -23,15 +23,14 @@ const data = [
     image: '/todo.jpg',
     link: 'https://todo-list-nu-black-15.vercel.app/',
   },
-  // Add more projects as needed
 ];
 
 const Work = () => {
   useEffect(() => {
     AOS.init({
-      duration: 700, // Slightly faster animation duration
-      delay: 50, // Reduced delay to prevent slow rendering
-      once: true, // Trigger animations only once
+      duration: 700, 
+      delay: 50, 
+      once: true, 
     });
   }, []);
 
@@ -54,7 +53,7 @@ const Work = () => {
               src={item.image}
               alt={`Project ${i + 1}`}
               width={600}
-              height={400} // Adjusted height for better aspect ratio
+              height={400}
               className='rounded-xl group-hover:scale-105 transition-transform duration-300 ease-in-out transform group-hover:shadow-lg'
             />
             <div className='absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300 rounded-xl flex items-center justify-center'>

@@ -10,12 +10,12 @@ body {
   scroll-behavior: smooth; 
 }
 
-/* Updated contact styles */
+
 .contact-item {
   display: flex;
   align-items: center;
-  justify-content: center; /* Center content for a balanced look */
-  padding: 10px 0; /* Further reduced padding for better mobile spacing */
+  justify-content: center; 
+  padding: 10px 0; 
   transition: background-color 0.3s ease, transform 0.3s ease;
   border-radius: 8px;
 }
@@ -27,8 +27,8 @@ body {
 
 .contact-icon {
   color: #4F46E5;
-  margin-right: 12px; /* Reduced margin to keep text close to icons */
-  font-size: 24px; /* Decreased icon size for better fit on mobile */
+  margin-right: 12px; 
+  font-size: 24px;
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
@@ -39,7 +39,7 @@ body {
 
 .contact-text {
   color: white;
-  font-size: 18px; /* Reduced font size for better readability on mobile */
+  font-size: 18px;
   transition: color 0.3s ease;
 }
 
@@ -47,7 +47,7 @@ body {
   color: #4F46E5;
 }
 
-/* Additional improvements for responsiveness */
+
 @media (min-width: 768px) {
   .contact-text {
     font-size: 22px;
