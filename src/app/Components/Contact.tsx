@@ -46,7 +46,7 @@ const Contact = () => {
             </a>
           </li>
           <li className="contact-item">
-            <a href="mailto:mufeedrahmanuk@gmail.com" className="flex items-center justify-center space-x-3">
+            <a href="mailto:mufeedrahmanuk@gmail.com?subject=Contact%20Request&body=Hello%20Mufeed,%0A%0AI%20would%20like%20to%20get%20in%20touch%20with%20you." className="flex items-center justify-center space-x-3">
               <MdEmail className="contact-icon text-3xl sm:text-4xl lg:text-5xl" />
               <h1 className="contact-text text-lg sm:text-xl md:text-2xl lg:text-3xl">
                 mufeedrahmanuk@gmail.com
