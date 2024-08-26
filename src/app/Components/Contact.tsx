@@ -6,12 +6,23 @@ import { VscGithub } from "react-icons/vsc";
 import { TiSocialFacebookCircular } from "react-icons/ti";
 import { TiSocialInstagramCircular } from "react-icons/ti";
 import Link from "next/link";
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 700, // Match the animation duration with the Work section
+      delay: 50, // Match the delay with the Work section
+      once: true, // Trigger animations only once
+    });
+  }, []);
+
   return (
     <div
       data-aos="fade-up" // Unified animation for the entire section
-      data-aos-duration="600" // Adjusted duration for smooth animation
+      data-aos-duration="700" // Matching duration with the Work section
       className="bg-[#121212] py-12 px-4 sm:py-16 sm:px-6 xl:px-20"
     >
       <div className="max-w-4xl mx-auto text-center">
