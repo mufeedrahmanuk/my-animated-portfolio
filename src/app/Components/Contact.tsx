@@ -11,29 +11,31 @@ const Contact = () => {
   return (
     <div
       data-aos="fade-up"
+      data-aos-duration="600"  // Adjusted duration
       className="bg-[#121212] py-12 px-4 sm:py-16 sm:px-6 xl:px-20"
     >
       <div className="max-w-4xl mx-auto text-center">
         <h1
           data-aos="fade-up"
+          data-aos-duration="600" // Adjusted duration
           className="text-4xl sm:text-5xl lg:text-6xl text-white font-bold mb-8 sm:mb-12"
         >
           Contact Me
         </h1>
         <ul className="space-y-8 sm:space-y-10 mb-8 sm:mb-12">
-          <li data-aos="fade-up-right" className="contact-item">
+          <li data-aos="fade-up-right" data-aos-duration="500" className="contact-item">
             <FaLocationDot className="contact-icon text-3xl sm:text-4xl lg:text-5xl" />
             <h1 className="contact-text text-lg sm:text-xl md:text-2xl lg:text-3xl">
               Dubai, United Arab Emirates
             </h1>
           </li>
-          <li data-aos="fade-up-right" className="contact-item">
+          <li data-aos="fade-up-right" data-aos-duration="500" className="contact-item">
             <MdEmail className="contact-icon text-3xl sm:text-4xl lg:text-5xl" />
             <h1 className="contact-text text-lg sm:text-xl md:text-2xl lg:text-3xl">
               mufeedrahmanuk@gmail.com
             </h1>
           </li>
-          <li data-aos="fade-up-right" className="contact-item">
+          <li data-aos="fade-up-right" data-aos-duration="500" className="contact-item">
             <IoMdCall className="contact-icon text-3xl sm:text-4xl lg:text-5xl" />
             <h1 className="contact-text text-lg sm:text-xl md:text-2xl lg:text-3xl">
               +971 55 991 7501
@@ -43,11 +45,13 @@ const Contact = () => {
 
         <div
           data-aos="fade-up"
+          data-aos-duration="400"  // Adjusted duration
           className="border-t border-neutral-700 py-4 mb-6 sm:mb-8"
         ></div>
 
         <div
           data-aos="fade-up"
+          data-aos-duration="400"  // Adjusted duration
           className="flex flex-wrap justify-center items-center gap-6 sm:gap-8"
         >
           <Link href={"https://www.linkedin.com/in/mufeedrahmanuk"}>
