@@ -23,34 +23,43 @@ const Contact = () => {
 
   return (
     <div
-      data-aos="fade-up" // Unified animation for the entire section
-      data-aos-duration="700" // Matching duration with the Work section
+      data-aos="fade-up"
+      data-aos-duration="700"
       className="bg-[#121212] py-12 px-4 sm:py-16 sm:px-6 xl:px-20"
     >
       <div className="max-w-4xl mx-auto text-center">
-        <h1
-          className="text-4xl sm:text-5xl lg:text-6xl text-white font-bold mb-8 sm:mb-12"
-        >
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl text-white font-bold mb-8 sm:mb-12">
           Contact Me
         </h1>
         <ul className="space-y-8 sm:space-y-10 mb-8 sm:mb-12">
           <li className="contact-item">
-            <FaLocationDot className="contact-icon text-3xl sm:text-4xl lg:text-5xl" />
-            <h1 className="contact-text text-lg sm:text-xl md:text-2xl lg:text-3xl">
-              Dubai, United Arab Emirates
-            </h1>
+            <a
+              href="https://www.google.com/maps/place/Dubai,+United+Arab+Emirates"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center space-x-3"
+            >
+              <FaLocationDot className="contact-icon text-3xl sm:text-4xl lg:text-5xl" />
+              <h1 className="contact-text text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                Dubai, United Arab Emirates
+              </h1>
+            </a>
           </li>
           <li className="contact-item">
-            <MdEmail className="contact-icon text-3xl sm:text-4xl lg:text-5xl" />
-            <h1 className="contact-text text-lg sm:text-xl md:text-2xl lg:text-3xl">
-              mufeedrahmanuk@gmail.com
-            </h1>
+            <a href="mailto:mufeedrahmanuk@gmail.com" className="flex items-center justify-center space-x-3">
+              <MdEmail className="contact-icon text-3xl sm:text-4xl lg:text-5xl" />
+              <h1 className="contact-text text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                mufeedrahmanuk@gmail.com
+              </h1>
+            </a>
           </li>
           <li className="contact-item">
-            <IoMdCall className="contact-icon text-3xl sm:text-4xl lg:text-5xl" />
-            <h1 className="contact-text text-lg sm:text-xl md:text-2xl lg:text-3xl">
-              +971 55 991 7501
-            </h1>
+            <a href="tel:+971559917501" className="flex items-center justify-center space-x-3">
+              <IoMdCall className="contact-icon text-3xl sm:text-4xl lg:text-5xl" />
+              <h1 className="contact-text text-lg sm:text-xl md:text-2xl lg:text-3xl">
+                +971 55 991 7501
+              </h1>
+            </a>
           </li>
         </ul>
 
