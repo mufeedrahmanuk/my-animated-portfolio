@@ -16,7 +16,7 @@ const Skills = () => {
         
         <div>
           <div className="mb-8">
-            <p data-aos="fade-up" className='font-bold'>Sep 2023 - May 2024</p>
+            <p data-aos="fade-up" className='font-bold'>Mar 2023 - May 2024</p>
             <p data-aos="fade-up">Software Engineer</p>
             <h1 data-aos="fade-up" className='font-bold text-2xl text-blue-400'>Orion Innovation</h1>
             <p data-aos="fade-up" className="text-gray-400 italic">Chennai, India</p>
@@ -31,7 +31,7 @@ const Skills = () => {
           </div>
 
           <div className="mb-8">
-            <p data-aos="fade-up" className='font-bold'>Dec 2021 - Aug 2023</p>
+            <p data-aos="fade-up" className='font-bold'>Nov 2020 - Feb 2023</p>
             <p data-aos="fade-up">System Engineer</p>
             <h1 data-aos="fade-up" className='font-bold text-2xl text-blue-400'>Tata Consultancy Services (TCS)</h1>
             <p data-aos="fade-up" className="text-gray-400 italic">Chennai, India</p>
