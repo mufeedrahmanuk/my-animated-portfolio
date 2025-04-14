@@ -41,7 +41,7 @@ const Contact = () => {
             >
               <FaLocationDot className="contact-icon text-3xl sm:text-4xl lg:text-5xl" />
               <h1 className="contact-text text-lg sm:text-xl md:text-2xl lg:text-3xl">
-                Dubai, United Arab Emirates
+                Abu Dhabi, United Arab Emirates
               </h1>
             </a>
           </li>

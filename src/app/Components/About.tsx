@@ -22,13 +22,13 @@ const About = () => {
           About Me
         </h1>
         <p data-aos="fade-up" className='text-base lg:text-lg'>
-          As a passionate Frontend Developer from Kerala, India, I specialize in transforming ideas into clean, efficient code using HTML, CSS, JavaScript, TypeScript, and frameworks like React, Next.js, and Angular.
+          I’m a Frontend Developer with over 4 years of experience at TCS and Orion Innovation, delivering high-performance UI solutions for fintech and sports sectors using React, Next.js, and Angular.
         </p>
         <p data-aos="fade-up" className='text-base lg:text-lg mt-4'>
-          My journey in web development has taken me through exciting projects in the Sports and BFSI domains, where I&rsquo;ve driven user engagement and business growth through innovative solutions, such as enhancing the AFL platform and revolutionizing online banking for PayUK.
+          I improved system performance by 25% for PayUK and boosted user engagement by 20% through freelance projects in Dubai, including e-commerce, real estate, and VR apps.
         </p>
         <p data-aos="fade-up" className='text-base lg:text-lg mt-4'>
-          I hold a B.E. in Computer Science and Engineering from Anna University, where my curiosity for technology was matched by a love for exploration. Whether it&rsquo;s traveling, discovering new music, or culinary adventures, these experiences fuel my creativity and problem-solving skills.
+          Now based in Abu Dhabi, I’m eager to contribute to the UAE’s tech ecosystem. In my free time, I enjoy exploring new music to fuel my creativity.
         </p>
         <a 
           data-aos="fade-up" 
@@ -38,6 +38,7 @@ const About = () => {
           Contact Me
         </a>
       </div>
+
     </div>
   )
 }

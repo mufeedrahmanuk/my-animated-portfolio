@@ -14,7 +14,7 @@ const Education = () => {
           {
             degree: "Bachelor of Engineering (B.E.)",
             field: "Computer Science and Engineering",
-            school: "AAMEC, Affiliated Anna University, Tamil Nadu, India",
+            school: "Anna University, Chennai, India",
             date: "November 2020",
           },
           {

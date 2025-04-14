@@ -24,7 +24,7 @@ const Hero = () => {
               1000,
               'Frontend Developer',
               1000,
-              'UI/UX Designer',
+              'Full Stack Developer',
               1000
             ]}
             wrapper="span"
@@ -34,9 +34,11 @@ const Hero = () => {
           />
         </h1>
         <p data-aos="fade-up" className='text-[#ADB7BE] md:mt-4 mt-4 text-base sm:text-lg lg:text-xl'>
-          Hey, I&rsquo;m Mufeed, a passionate web developer dedicated{' '} 
-          to crafting responsive and dynamic websites that captivate and engage users.
+          Hey, I’m Mufeed, a Frontend Developer with over 4 years of experience in React, Next.js, and Angular, 
+          building dynamic websites that engage users. My projects in Dubai boosted user engagement by 20%. 
+          Explore my work to see how I can add value!
         </p>
+
 
         <div className='flex justify-center sm:justify-start mb-2.5'>
           <a 
