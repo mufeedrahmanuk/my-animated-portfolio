@@ -2,7 +2,7 @@ import React from 'react';
 import { FaCss3Alt, FaGithub, FaHtml5, FaNodeJs, FaReact } from "react-icons/fa";
 import { FiGithub } from 'react-icons/fi';
 import { GiTBrick } from 'react-icons/gi';
-import { SiJavascript, SiNextdotjs, SiTailwindcss, SiTypescript, SiAngular } from 'react-icons/si';
+import { SiJavascript, SiTailwindcss, SiTypescript, SiAngular, SiMongodb, SiExpress } from 'react-icons/si';
 
 const Skills = () => {
   return (
@@ -17,12 +17,12 @@ const Skills = () => {
       <div>
           <div className="mb-8">
             <p data-aos="fade-up" className='font-bold'>May 2024 – Mar 2025</p>
-            <p data-aos="fade-up">Freelance Frontend Developer</p>
+            <p data-aos="fade-up">Freelance Web Developer</p>
             <h1 data-aos="fade-up" className='font-bold text-2xl text-blue-400'>Dubai, UAE</h1>
             <ul className='list-disc pl-5 text-gray-400 mt-2'>
               <li data-aos="fade-up-right">Developed React e-commerce app with mock data for Dubai retailer.</li>
               <li data-aos="fade-up-right">Boosted user engagement by 20% with streamlined checkout UI.</li>
-              <li data-aos="fade-up-right">Designed animated Next.js VR interface, enhancing interaction by 20%.</li>
+              <li data-aos="fade-up-right">Designed animated React.js VR interface, enhancing interaction by 20%.</li>
             </ul>
           </div>
 
@@ -59,12 +59,14 @@ const Skills = () => {
             { skill: "Javascript", icon: <SiJavascript className='text-yellow-600 text-4xl' /> },
             { skill: "Typescript", icon: <SiTypescript className='text-blue-600 text-4xl' /> },
             { skill: "React Js", icon: <FaReact className='text-sky-600 text-4xl' /> },
-            { skill: "Next Js", icon: <SiNextdotjs className='text-purple-800 text-4xl' /> },
-            { skill: "GitHub", icon: <FiGithub className='text-neutral-800 text-4xl' /> },
-            { skill: "Node Js", icon: <FaNodeJs className='text-green-700 text-4xl' /> },
             { skill: "Angular Js", icon: <SiAngular className='text-red-700 text-4xl' /> },
+            { skill: "Node Js", icon: <FaNodeJs className='text-green-700 text-4xl' /> },
+            { skill: "Express Js", icon: <SiExpress className='text-gray-200 text-4xl' /> },
+            { skill: "MongoDB", icon: <SiMongodb className='text-green-600 text-4xl' /> },
+            { skill: "GitHub", icon: <FiGithub className='text-neutral-800 text-4xl' /> },            
             { skill: "Git", icon: <GiTBrick className='text-red-700 text-4xl' /> },
             { skill: "Tailwind CSS", icon: <SiTailwindcss className='text-sky-500 text-4xl' /> },
+            
           ].map(({ skill, icon }, index) => (
             <div key={index}>
               <a data-aos="fade-up-right" className='flex flex-col items-center transition-all duration-300 hover:bg-neutral-800 border border-neutral-700 cursor-pointer p-4 rounded-md text-white'>

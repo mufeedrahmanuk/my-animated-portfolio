@@ -22,7 +22,7 @@ const Hero = () => {
             sequence={[
               'Web Developer',
               1000,
-              'Frontend Developer',
+              'Software Developer',
               1000,
               'Full Stack Developer',
               1000
@@ -34,9 +34,7 @@ const Hero = () => {
           />
         </h1>
         <p data-aos="fade-up" className='text-[#ADB7BE] md:mt-4 mt-4 text-base sm:text-lg lg:text-xl'>
-          Hey, I’m Mufeed, a Frontend Developer with over 4 years of experience in React, Next.js, and Angular, 
-          building dynamic websites that engage users. My projects in Dubai boosted user engagement by 20%. 
-          Explore my work to see how I can add value!
+        Hey, I’m Mufeed, a Software Engineer with over 5 years of experience specializing in web development, creating engaging and impactful digital solutions. My projects in Dubai boosted user engagement by 20%. Explore my work to see how I can add value to your team!
         </p>
 
 

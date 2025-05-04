@@ -22,7 +22,7 @@ const About = () => {
           About Me
         </h1>
         <p data-aos="fade-up" className='text-base lg:text-lg'>
-          I’m a Frontend Developer with over 4 years of experience at TCS and Orion Innovation, delivering high-performance UI solutions for fintech and sports sectors using React, Next.js, and Angular.
+          I’m a Full Stack Developer with over 5 years of experience at TCS and Orion Innovation, delivering high-performance UI solutions for fintech and sports sectors using React, Angular, and Node.js.
         </p>
         <p data-aos="fade-up" className='text-base lg:text-lg mt-4'>
           I improved system performance by 25% for PayUK and boosted user engagement by 20% through freelance projects in Dubai, including e-commerce, real estate, and VR apps.
